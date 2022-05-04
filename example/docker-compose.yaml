@@ -1,7 +1,7 @@
 version: "3.3"
 services:
 
-  whoami:
+  helloworld:
     image: bithavoc/hello-world-env
     container_name: "helloworld-example"
     ports:
