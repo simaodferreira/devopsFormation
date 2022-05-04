@@ -1,0 +1,10 @@
+version: "3.3"
+services:
+
+  helloworld:
+    image: bithavoc/hello-world-env
+    container_name: "helloworld-example"
+    ports:
+      - "3000:3000"
+    environment:
+      MESSAGE: "Some words"
